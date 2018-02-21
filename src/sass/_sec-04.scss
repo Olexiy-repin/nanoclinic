@@ -1,0 +1,50 @@
+#sec-04 {
+  padding-top: 3.6rem;
+  padding-bottom: 6.3rem;
+}
+
+.sec-04__title-container {
+  text-align: center;
+}
+
+.sec-04__title {
+  font-family: FuturaPTD;
+  font-size: pxToRem(32px);
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 2.4rem;
+}
+
+.sec-04__logo-container {
+  text-align: center;
+  margin-bottom: 1.7rem;
+}
+
+.sec-04__logo {
+  width: 3.9rem;
+  height: 3.9rem;
+  fill: #5e5e5e;
+}
+
+.slider-text-container {
+  text-align: center;
+}
+
+.slider-title {
+  font-family: FuturaPTD;
+  font-size: pxToRem(20px);
+  margin-bottom: .9rem;
+  padding: 0 .9rem;
+}
+
+.slider-description {
+  font-family: FuturaL;
+  font-size: pxToRem(18px);
+  color: #5e5e5e;
+  padding: 0 1rem;
+  line-height: 1.35;
+}
+
+.slider-span {
+  font-family: FuturaPTD;
+}

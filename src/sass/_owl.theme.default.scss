@@ -1,0 +1,28 @@
+@font-face {
+  font-family: GothaB;
+  src: url('fonts/GothaProBol.woff') format("woff"),
+       url('fonts/GothaProBol.woff2') format("woff2");
+}
+
+// OWL DOTS
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: .9rem;
+}
+
+.owl-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #6e6f72;
+  margin-right: 1.5rem;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.owl-dot.active {
+  background-color: #26c6da;
+}

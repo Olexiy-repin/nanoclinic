@@ -1,0 +1,100 @@
+.menu-logo {
+  width: 25px;
+  height: 32px;
+  fill: #000;
+}
+
+.close-logo {
+  width: 18px;
+  height: 25px;
+  fill: #000;
+}
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top: .6rem;
+  right: 5%;
+  border:0;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top: 2.4%;
+  right: 5%;
+  border:0;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+#sec-01 .menu {
+  display: none;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 2;
+  height: 39rem;
+}
+
+.menu .logo-container {
+  position: absolute;
+  top: .75rem;
+  left: 5.1%;
+}
+
+.menu-btn {
+  font-family: FuturaPTD;
+  font-size: pxToRem(14px);
+  text-transform: uppercase;
+  border: none;
+  outline: 2px solid #000;
+  background-color: transparent;
+  margin-bottom: 1.9rem;
+  padding: .6rem 1.2rem;
+  letter-spacing: 2.6px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-contact-block {
+  font-family: FuturaPTD;
+  font-size: pxToRem(16px);
+  text-align: center;
+  margin-bottom: 20.7rem;
+}
+
+.menu-contact-block__geolocation {
+  margin-bottom: 1.2rem;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  &::before {
+    display: inline-block;
+    content: url("img/sec-01/geo.svg");
+    width: .6rem;
+    height: 1.1rem;
+    margin-right: .8rem;
+  }
+}
+
+.menu-contact-block__tel {
+  &::before {
+    display: inline-block;
+    content: url("img/sec-01/tel.svg");
+    width: .8rem;
+    height: .9rem;
+    margin-right: .7rem;
+  }
+}

@@ -1,0 +1,66 @@
+#sec-02 {
+  padding-top: 5.8rem;
+  padding-bottom: 3rem;
+}
+
+.sec-02__title-container {
+  text-align: center;
+}
+
+.sec-02__under-title-text {
+  font-family: FuturaPTD;
+  font-size: pxToRem(18px);
+  color: #26c6da;
+  margin-bottom: .7rem;
+}
+
+.sec-02__title {
+  font-family: FuturaPTD;
+  font-size: pxToRem(32px);
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: .9rem;
+}
+
+.sec-02__before-title-text {
+  font-family: FuturaL;
+  font-size: pxToRem(18px);
+  line-height: 1.4;
+  color: #737373;
+}
+
+.title-col {
+  margin-bottom: 2.3rem;
+}
+
+.sec-02__card {
+  text-align: center;
+  background-color: #f4f5fb;
+  margin: auto;
+  width: 77%;
+  padding: 3.4rem 0 0 0;
+  height: 18.2rem;
+}
+
+.sec-02__card-img {
+  margin-bottom: 1.2rem;
+}
+
+.sec-02__card-logo {
+  width: 3.9rem;
+  height: 3.9rem;
+  fill: #5e5e5e;
+}
+
+.sec-02__card-text {
+  font-family: FuturaPTD;
+  font-size: pxToRem(18px);
+  line-height: 1.2;
+}
+
+.card-col {
+  margin-bottom: .6rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

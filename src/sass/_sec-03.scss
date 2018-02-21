@@ -1,0 +1,75 @@
+#sec-03 {
+  padding-top: 3.2rem;
+  padding-bottom: 1rem;
+}
+
+.sec-03__title-container {
+  text-align: center;
+}
+
+.sec-03__title {
+  font-family: FuturaPTD;
+  font-size: pxToRem(32px);
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: .5rem;
+}
+
+.sec-03__description {
+  font-family: FuturaL;
+  font-size: pxToRem(18px);
+  color: #737373;
+  line-height: 1.3;
+  margin-bottom: 1.1rem;
+}
+
+.sec-03__logo {
+  width: 3.9rem;
+  height: 3.9rem;
+  fill: #5e5e5e;
+}
+
+.sec-03__picture {
+  display: block;
+  text-align: center;
+}
+
+#sec-03 .row:first-child {
+  margin-bottom: 6rem;
+}
+
+.sec-03__bottom-title {
+  font-family: FuturaPTD;
+  font-size: pxToRem(32px);
+  font-weight: 400;
+}
+
+.sec-03__bottom-col {
+  margin-bottom: 2.2rem;
+}
+
+.sec-03__bottom-title {
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.sec-03__text-card {
+  margin-bottom: 1.5rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.sec-03__text-card-title {
+  font-family: FuturaPTD;
+  font-size: pxToRem(20px);
+  margin-bottom: .6rem;
+  line-height: 1.2;
+}
+
+.sec-03__text-card-description {
+  font-family: FuturaL;
+  font-size: pxToRem(18px);
+  line-height: 1.35;
+  color: #737373;
+}

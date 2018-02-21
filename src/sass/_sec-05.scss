@@ -1,0 +1,97 @@
+#sec-05 {
+  padding-top: 5.5rem;
+  padding-bottom: 6.1rem;
+  background-color: #f4f5fb;
+}
+
+.sec-05__title {
+  font-family: FuturaPTD;
+  font-size: pxToRem(32px);
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 1.8rem;
+}
+
+.sec-05__text-card {
+  margin-bottom: 1.3rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.sec-05__text-card-title {
+  font-family: FuturaPTD;
+  font-size: pxToRem(20px);
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: .5rem;
+}
+
+.sec-05__text-card-description {
+  font-family: FuturaL;
+  font-size: pxToRem(18px);
+  color: #6e6f72;
+  line-height: 1.35;
+}
+
+.sec-05__text-card-span {
+  font-family: FuturaPTD;
+}
+
+#sec-05 .row:first-child {
+  margin-bottom: 2.7rem;
+}
+
+.plashka {
+  min-height: 19.1rem;
+  text-align: center;
+  background-color: #fff;
+  padding: 3.1rem 0 0 0;
+  z-index: 1;
+  position: relative;
+  &::before {
+    display: block;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "90%";
+    font-family: FuturaPTD;
+    font-size: pxToRem(126px);
+    color: #f7f7f7;
+    z-index: 2;
+  }
+}
+
+.plashka__title {
+  font-family: FuturaPTD;
+  font-size: pxToRem(32px);
+  font-weight: 400;
+  line-height: 1.1;
+  padding: 0 2.6rem;
+  margin-bottom: .2rem;
+  z-index: 3;
+  position: relative;
+}
+
+.plashka__description {
+  font-family: FuturaL;
+  font-size: pxToRem(18px);
+  color: #6e6f72;
+  line-height: 1.35;
+  padding: 0 .3rem;
+  position: relative;
+  z-index: 4;
+}
+
+.plashka__span {
+  font-family: FuturaPTD;
+}
+
+#sec-05 .row:last-child [class*=col-]:first-child {
+  margin-bottom: 2.8rem;
+}
+
+#sec-05 .timer-container {
+  margin-bottom: 2.9rem;
+}

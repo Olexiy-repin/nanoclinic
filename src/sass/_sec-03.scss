@@ -73,3 +73,49 @@
   line-height: 1.35;
   color: #737373;
 }
+
+@media (min-width: 768px) {
+  #sec-03 {
+    padding-top: 5rem;
+  }
+
+  .sec-03__title {
+    font-size: pxToRem(40px);
+    margin-bottom: 1.1rem;
+  }
+
+  .sec-03__description {
+    padding: 0 6rem;
+    margin-bottom: 2.1rem;
+  }
+
+  #sec-03 .row:first-child {
+    margin-bottom: 8.4rem;
+  }
+
+  .sec-03__bottom-title {
+    font-size: pxToRem(40px);
+    margin-bottom: 2rem;
+  }
+
+  .sec-03__text-card-title {
+    font-size: pxToRem(24px);
+    margin-bottom: .55rem;
+  }
+
+  .sec-03__bottom-col {
+    margin-bottom: 3.2rem;
+  }
+
+  .sec-03__bottom-title-container {
+    padding-left: 4.5rem;
+  }
+
+  .sec-03__text-card {
+    margin-bottom: 1.4rem;
+  }
+
+  .sec-03__text-card-description {
+    padding-right: 4rem;
+  }
+}

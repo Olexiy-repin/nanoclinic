@@ -5,7 +5,7 @@ window.onload = function()
 
 
 function initializeTimer() {
-	var endDate = new Date(2018,1,21,20,00);
+	var endDate = new Date(2018,1,22,20,00);
 	var currentDate = new Date();
 	var seconds = (endDate-currentDate) / 1000;
 	if (seconds > 0) {

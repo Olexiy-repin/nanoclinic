@@ -3,6 +3,7 @@
     <div class="row">
       <div class="col-12">
         <picture class="sec-07__picture">
+          <source srcset="img/sec-07/md-img.png" media="(min-width: 768px)">
           <source srcset="img/sec-07/sm-img.png" media="(min-width: 320px)">
           <img class="sec-07__img" src="img/sec-07/sm-img.png" alt="There must be an image">
         </picture>
@@ -22,36 +23,38 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <div class="sale-container">
-          <div class="coast-container">
-            <p class="coast-title sale-title">Цена</p>
-            <p class="coast-description sale-description">за осмотр <br> и консультацию:</p>
-            <p class="coast-container__coast sale-container__coast">299 грн.</p>
+        <div class="sec-01__content-container">
+          <div class="sale-container">
+            <div class="coast-container">
+              <p class="coast-title sale-title">Цена</p>
+              <p class="coast-description sale-description">за осмотр <br> и консультацию:</p>
+              <p class="coast-container__coast sale-container__coast">299 грн.</p>
+            </div>
+            <div class="date-container">
+              <p class="date-title sale-title">Акция</p>
+              <p class="date-description sale-description">Сейчас:</p>
+              <p class="date-container__date sale-container__coast">Бесплатно</p>
+            </div>
           </div>
-          <div class="date-container">
-            <p class="date-title sale-title">Акция</p>
-            <p class="date-description sale-description">Сейчас:</p>
-            <p class="date-container__date sale-container__coast">Бесплатно</p>
-          </div>
+          <div class="timer-container">
+            <div class="timer-container__description"><span class="timer-container__description-span">Акция закончится</span> через:</div>
+            <div class="timer-wrapper">
+              <div id="timer" class="timer-container__timer">
+                <span class="days-03 timer-count">00</span>&nbsp;&nbsp;:&nbsp;&nbsp;
+                <span class="hours-03 timer-count">00</span>&nbsp;&nbsp;:&nbsp;&nbsp;
+                <span class="minutes-03 timer-count">00</span>&nbsp;&nbsp;:&nbsp;&nbsp;
+                <span class="sec-03 timer-count">00</span>
+              </div>
+
+              <div class="timer-container__bottom-description">
+                <span class="timer-container__bottom-span">дней</span>
+                <span class="timer-container__bottom-span">часов</span>
+                <span class="timer-container__bottom-span">минут</span>
+                <span class="timer-container__bottom-span">секунд</span>
+              </div>
+            </div>
         </div>
-        <div class="timer-container">
-          <div class="timer-container__description"><span class="timer-container__description-span">Акция закончится</span> через:</div>
-          <div class="timer-wrapper">
-            <div id="timer" class="timer-container__timer">
-              <span class="days-03 timer-count">00</span>&nbsp;&nbsp;:&nbsp;&nbsp;
-              <span class="hours-03 timer-count">00</span>&nbsp;&nbsp;:&nbsp;&nbsp;
-              <span class="minutes-03 timer-count">00</span>&nbsp;&nbsp;:&nbsp;&nbsp;
-              <span class="sec-03 timer-count">00</span>
-            </div>
 
-            <div class="timer-container__bottom-description">
-              <span class="timer-container__bottom-span">дней</span>
-              <span class="timer-container__bottom-span">часов</span>
-              <span class="timer-container__bottom-span">минут</span>
-              <span class="timer-container__bottom-span">секунд</span>
-            </div>
-
-          </div>
         </div>
       </div>
       <div class="col-12">
@@ -74,7 +77,8 @@
     <div class="sec-07__footer-block">
       <div class="logo-container">
         <picture class="sec-01__picture">
-          <source srcset="img/sec-01/logo-sm.png">
+          <source srcset="img/sec-01/logo-md.png" media="(min-width: 768px)">
+          <source srcset="img/sec-01/logo-sm.png" media="(min-width: 320px)">
           <img src="img/sec-01/logo-sm.png" alt="There must be a logo">
         </picture>
       </div>

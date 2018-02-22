@@ -95,3 +95,73 @@
 #sec-05 .timer-container {
   margin-bottom: 2.9rem;
 }
+
+@media (min-width: 768px) {
+  #sec-05 {
+    padding-top: 7.8rem;
+    padding-bottom: 12.6rem;
+    background-image: url("img/sec-05/md-bg.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  .sec-05__br-md {
+    display: block;
+  }
+
+  .sec-05__title {
+    font-size: pxToRem(40px);
+    line-height: 1.2;
+    margin-bottom: 2.3rem;
+  }
+
+  .sec-05__text-card:last-child {
+    .sec-05__text-card-title {
+      padding-right: 10rem;
+    }
+  }
+
+  .sec-05__text-card-title {
+    font-size: pxToRem(24px);
+    padding-right: 8rem;
+    line-height: 1.25;
+    margin-bottom: .3rem;
+  }
+
+  .sec-05__title-container {
+    padding: 0 4.3rem;
+  }
+
+  #sec-05 .row:first-child {
+    margin-bottom: 3.2rem;
+  }
+
+  .plashka {
+    margin: auto;
+    width: 80.7%;
+    min-height: 19.6rem;
+    padding-top: 4.2rem;
+    &::before {
+      font-size: pxToRem(234px);
+      top: 8%;
+    }
+  }
+
+  .plashka__title {
+    font-size: pxToRem(40px);
+    margin-bottom: .8rem;
+  }
+
+  .plashka__description {
+    padding: 0 7.3rem;
+  }
+
+  #sec-05 .row:last-child [class*=col-]:first-child {
+    margin-bottom: 10.3rem;
+  }
+
+  #sec-05 .timer-container {
+    margin-bottom: 3.2rem;
+  }
+}

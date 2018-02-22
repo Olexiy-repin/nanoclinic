@@ -39,7 +39,7 @@
           <div class="timer-container">
             <div class="timer-container__description"><span class="timer-container__description-span">Акция закончится</span> через:</div>
             <div class="timer-wrapper">
-              <div id="timer" class="timer-container__timer">
+              <div class="timer-container__timer">
                 <span class="days-03 timer-count">00</span>&nbsp;&nbsp;:&nbsp;&nbsp;
                 <span class="hours-03 timer-count">00</span>&nbsp;&nbsp;:&nbsp;&nbsp;
                 <span class="minutes-03 timer-count">00</span>&nbsp;&nbsp;:&nbsp;&nbsp;
@@ -61,7 +61,7 @@
         <div class="form-container">
           <form class="registration sec-07__form" action="#" method="post">
             <p class="sec-07__form-title"><span class="form-br">Запишитесь</span> на <span class="form-title-span">бесплатный осмотр</span></p>
-            <input class="text-input" type="text" name="name" id="form-name" required placeholder="Ім’я">
+            <input class="text-input" type="text" name="name" id="form-name" required placeholder="Имя">
             <input class="text-input" type="email" name="email" id="form-email" required placeholder="Email">
             <input class="text-input" type="tel" name="phone" id="form-phone" required placeholder="Телефон">
 
@@ -83,10 +83,27 @@
           <img src="img/sec-01/logo-sm.png" alt="There must be a logo">
         </picture>
       </div>
-      <p class="menu-contact-block__geolocation">Киев, ул. Здолбуновская, 13</p>
+      <a href="https://www.google.ru/maps/place/%D1%83%D0%BB.+%D0%97%D0%B4%D0%BE%D0%BB%D0%B1%D1%83%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F,+13,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4179389,30.6231792,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4c50b8b25420f:0x4e1acdb481e93956!8m2!3d50.4179389!4d30.6253679" class="menu-contact-block__geolocation" target="_blank">Киев, ул. Здолбуновская, 13</a>
     </div>
     <div class="sec-07__footer-block">
-      <p class="menu-contact-block__tel">(067) 441-12-11</p>
+      <div class="socials-container">
+        <a href="https://www.facebook.com/?ref=tn_tnmn" target="_blank" class="social-link">
+          <svg class="social-img fb">
+            <use xlink:href="img/sec-07/socials.svg#icon-social_fb"></use>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/nanoclinic_dentistry/" target="_blank" class="social-link">
+          <svg class="social-img inst">
+            <use xlink:href="img/sec-07/socials.svg#icon-social_instagram"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="sec-07__footer-block">
+      <div class="sec-07__bottom-telephone-block">
+        <a href="tel:+380674411211" class="menu-contact-block__tel">(067) 441-12-11</a>
+        <a href="tel:+380443378978" class="menu-contact-block__tel">(044) 337-89-78</a>
+      </div>
       <a href="#telModal" class="menu-btn popup-with-form">мы перезвоним</a>
     </div>
   </div>

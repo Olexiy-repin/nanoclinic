@@ -1,5 +1,5 @@
 #sec-06 {
-  padding-top: 1.8rem;
+  padding-top: 3rem;
   padding-bottom: 5.2rem;
 }
 
@@ -38,6 +38,10 @@
     position: absolute;
     right: 0;
     bottom: 0;
+  }
+  &:hover {
+    transition: all .5s linear;
+    opacity: .5;
   }
 }
 

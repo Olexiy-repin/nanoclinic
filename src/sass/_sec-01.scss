@@ -1,6 +1,6 @@
 #sec-01 {
   padding-top: .8rem;
-  padding-bottom: 1.2rem;
+  padding-bottom: 3.6rem;
   background-image: url("img/sec-01/bg-sm.png");
   background-position: top;
   background-size: cover;
@@ -211,6 +211,16 @@
 
   .desctop-menu-btn {
     margin-bottom: 0;
+    &:hover {
+      transition: all .3s linear;
+      background-color: #26c6da;
+      outline-color: #26c6da;
+    }
+    &:focus {
+      color: #fff;
+      background-color: #26c6da;
+      outline-color: #26c6da;
+    }
   }
 
   .sec-01__content-container {
@@ -264,6 +274,11 @@
   .sec-01__bottom-btn {
     padding: 1.2rem 0;
     width: 24.4rem;
+    &:hover {
+      transition: all .5s linear;
+      box-shadow: 0px 10px 27px 0px #9e9fa2;
+      color: #000;
+    }
   }
 
   .bottom-contact-block {

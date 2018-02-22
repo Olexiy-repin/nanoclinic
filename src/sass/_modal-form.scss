@@ -62,6 +62,27 @@
   .modal-content {
     padding: 4rem 0;
   }
+
+  #myModal .sec-07__form {
+    width: auto;
+  }
+
+  #myModal .sec-01__bottom-btn {
+    width: auto;
+  }
+
+  #telModal .sec-07__form {
+    width: auto;
+  }
+
+  #telModal .sec-01__bottom-btn {
+    width: 100%;
+  }
+
+  #telModal .form-container {
+    padding: 0 5rem;
+    width: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -80,5 +101,35 @@
 
   #myModal .modal-title {
     font-size: 1.5rem;
+  }
+
+  #telModal .sec-01__content-btn {
+    margin-left: 0;
+    padding: 1.2rem 3.5rem;
+  }
+
+  #telModal .form-container {
+    padding: 0 5rem;
+    width: 100%;
+  }
+
+  #telModal .modal-title {
+    font-size: 1.5rem;
+  }
+
+  #myModal .sec-07__form {
+    width: auto;
+  }
+
+  #myModal .sec-01__bottom-btn {
+    width: auto;
+  }
+
+  #telModal .sec-07__form {
+    width: auto;
+  }
+
+  #telModal .sec-01__bottom-btn {
+    width: 100%;
   }
 }

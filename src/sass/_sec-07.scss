@@ -9,6 +9,10 @@
 }
 
 #sec-07 .row:first-of-type {
+  margin-bottom: 3.4rem;
+}
+
+#sec-07 .row:last-of-type .sec-07__text-card {
   margin-bottom: 2.4rem;
 }
 
@@ -23,9 +27,9 @@
 
 .sec-07__text-card {
   text-align: center;
-  &:first-of-type {
-    margin-bottom: 3.1rem;
-  }
+  // &:first-of-type {
+  //   margin-bottom: 3.1rem;
+  // }
 }
 
 .sec-07__text-card-title {
@@ -173,11 +177,19 @@
 
   .sec-07__text-card:first-of-type {
     padding: 0 3.8rem;
+    margin-bottom: 0;
+  }
+
+  #sec-07 .row:first-of-type {
     margin-bottom: 5rem;
   }
 
-  .sec-07__text-card:last-of-type .sec-07__text-card-description {
-    padding: 0 4.9rem;
+  #sec-07 .row:last-of-type .sec-07__text-card{
+    padding: 0;
+    margin-bottom: 2.4rem;
+    .sec-07__text-card-description {
+      padding: 0 4.9rem
+    }
   }
 
   #sec-07 .sec-01__content-container{
@@ -246,5 +258,110 @@
 
   #sec-07 .menu-btn {
     margin-bottom: 2.1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sec-07 {
+    padding-top: 12.6rem;
+    padding-bottom: 1.3rem;
+  }
+
+  .sec-07__picture {
+    justify-content: flex-start;
+    padding-left: .5rem;
+  }
+
+  .sec-07__text-card:first-of-type {
+    padding: 0 .5rem;
+    text-align: left;
+  }
+
+  .sec-07__text-container {
+    padding-top: 2.2rem;
+  }
+
+  .sec-07__lg-br {
+    display: block;
+  }
+
+  .sec-07__text-card-title {
+    padding-right: 6rem;
+  }
+
+  .sec-07__text-card-title {
+    margin-bottom: 1.25rem;
+  }
+
+  .sec-07__text-card-description:last-of-type {
+    padding-right: 2rem;
+  }
+
+  #sec-07 .row:last-of-type .sec-07__text-card .sec-07__text-card-description {
+    padding: 0 .6rem 0 .5rem;
+  }
+
+  #sec-07 .sec-01__content-container {
+    padding-left: .4rem;
+  }
+
+  #sec-07 .row:last-of-type .sec-07__text-card {
+    margin-bottom: 3.1rem;
+    margin-top: .9rem;
+  }
+
+  #sec-07 .row [class*=col-]:first-child {
+    margin-bottom: 0;
+  }
+
+  #sec-07 .row:first-of-type {
+    margin-bottom: 4.1rem;
+  }
+
+  // form
+
+  .sec-07__form {
+    padding: 3.4rem 4.2rem 3.7rem;
+  }
+
+  #sec-07 .form-container {
+    padding-left: .5rem;
+  }
+
+  .sec-07__form {
+    width: 34.6rem;
+  }
+
+  .text-input {
+    margin-bottom: 1.75rem;
+  }
+  // footer
+  .sec-07__footer-block {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #sec-07 .logo-container {
+    margin-bottom: 0;
+  }
+
+  #sec-07 .menu-btn {
+    margin-bottom: 0;
+  }
+
+  #sec-07 .menu-contact-block__tel {
+    order: 0;
+    margin-right: 7.9rem;
+  }
+
+  .sec-07__footer-container {
+    margin-top: 9.7rem;
+    padding: 0 5rem 0 5.9rem;
+  }
+
+  #sec-07 .menu-contact-block__geolocation {
+    margin-left: 9.5rem;
   }
 }

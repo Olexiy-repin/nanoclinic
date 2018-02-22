@@ -119,3 +119,43 @@
     padding-right: 4rem;
   }
 }
+
+@media (min-width: 1200px) {
+  #sec-03 {
+    padding-top: 3.9rem;
+  }
+
+  .sec-03__description {
+    padding: 0 19rem;
+  }
+
+  #sec-03 .row:first-child {
+    margin-bottom: 9.6rem;
+  }
+
+  .sec-03__picture {
+    position: absolute;
+    top: 0;
+    left: -62.8%;
+  }
+
+  .sec-03__bottom-title-container {
+    padding-left: 0.4rem;
+  }
+
+  .sec-03__text-card-title {
+    margin-bottom: .85rem;
+  }
+
+  .sec-03__text-card-description {
+    padding-right: 0;
+  }
+
+  .sec-03__text-card {
+    padding-right: 4rem;
+  }
+
+  .sec-03__text-card:nth-of-type(2) {
+    padding-right: 2.8rem;
+  }
+}

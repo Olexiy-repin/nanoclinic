@@ -97,3 +97,31 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 1200px) {
+  #sec-02 {
+    padding-top: 11.1rem;
+  }
+
+  .sec-02__title-container {
+    text-align: left;
+    padding-left: .4rem;
+  }
+
+  .sec-02__under-title-text {
+    margin-bottom: 1.1rem;
+  }
+
+  .sec-02__title {
+    padding: 0 4rem 0 0;
+    margin-bottom: .2rem;
+  }
+
+  .sec-02__before-title-text {
+    padding: 0 1.1rem 0 0;
+  }
+
+  #sec-02 .col-xl-8 .row {
+    padding-top: .4rem;
+  }
+}

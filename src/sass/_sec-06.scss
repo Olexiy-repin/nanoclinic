@@ -111,3 +111,38 @@
     padding-right: .7rem;
   }
 }
+
+@media (min-width: 1200px) {
+  #sec-06 {
+    padding-top: 10.4rem;
+    padding-bottom: 9.8rem;
+  }
+
+  .sec-06__title {
+    line-height: 1;
+    position: relative;
+    &::after {
+      display: block;
+      content: url("img/sec-06/tooth-lg.png");
+      position: absolute;
+      left: -1%;
+      top: 215%;
+    }
+  }
+
+  .sec-06__list {
+    padding-top: .3rem;
+  }
+
+  .sec-06__list-item {
+    width: 100%;
+  }
+
+  .sec-06__list-item:nth-child(2) .sec-06__item-title {
+    padding-right: 16rem;
+  }
+
+  .sec-06__list-item:nth-child(4) .sec-06__item-title {
+    padding-right: 13rem;
+  }
+}

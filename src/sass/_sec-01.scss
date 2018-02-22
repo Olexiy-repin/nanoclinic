@@ -280,3 +280,26 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 1200px) {
+  #sec-01 {
+    background-image: url("img/sec-01/bg-lg.png");
+  }
+
+  .sec-01__header {
+    padding-left: 6.1rem;
+    padding-right: 5.4rem;
+  }
+
+  .sec-01__content-container {
+    padding-left: .6%;
+  }
+
+  .title-container {
+    padding-right: 29rem;
+  }
+
+  .bottom-contact-block {
+    padding: 0 7rem 0 6.2rem;
+  }
+}

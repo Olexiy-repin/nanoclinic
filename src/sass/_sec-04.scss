@@ -117,3 +117,57 @@
     height: 3.8rem;
   }
 }
+
+@media (min-width: 1200px) {
+  #sec-04 {
+    padding-bottom: 10.5rem;
+  }
+  
+  .sec-04__card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1.4rem;
+  }
+
+  .sec-04__card {
+    width: 48%;
+    margin-bottom: 3.6rem;
+    &:nth-of-type(n+3) {
+      margin-bottom: 0;
+    }
+  }
+
+  .sec-04__title {
+    margin-bottom: 5.5rem;
+  }
+
+  .sec-04__logo-container {
+    margin-right: 1.4rem;
+  }
+
+  .sec-04__card:nth-of-type(3) .slider-title {
+    padding-right: 5rem;
+  }
+
+  .sec-04__card {
+    &:nth-of-type(3) {
+      .slider-description{
+        padding-right: 5.3rem;
+      }
+    }
+    &:nth-of-type(4) {
+      .slider-description {
+        padding-right: 2.5rem;
+      }
+    }
+  }
+
+  .slider-description {
+    padding-right: 3.2rem;
+  }
+
+  .sec-04__logo-container {
+    padding-top: .2rem;
+  }
+}
